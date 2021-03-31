@@ -6,10 +6,29 @@
     
     body {
         height: 2000px;
+        background: #09091b;
     }
     
     a {
         text-decoration: none;
+    }
+    
+    .btn {
+        margin: 10px;
+    }
+    
+    .header-with-bg {
+        height: 600px;
+        background-image: url(../img/mainheader.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 100px;
+    }
+    
+    @media (max-width: 992px) {
+        .header-with-bg {
+            height: 300px;
+        }
     }
     
     .navbar {
@@ -19,7 +38,7 @@
         min-height: 4rem;
         background-color: #563d7c;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
     
     .navbar-toggler i {
@@ -28,7 +47,7 @@
     }
     
     .bg-light {
-        background-color: #563d7c !important;
+        background-color: #362a48 !important;
     }
     
     .main-nav .nav-item {
@@ -90,20 +109,34 @@
     }
     /* page */
     
+    .buttonsH1 {
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .card {
+        border: 3px solid #000;
+    }
+    
     .card-with-legend .card-legend {
         font-size: 12px;
-        color: #575d78;
         line-height: 1.92;
         font-weight: 500;
         position: absolute;
         top: -12px;
         left: 2.25rem;
-        background-color: #ffffff;
+        background: #000;
+        color: white;
         padding: 0 10px;
     }
     
     .card-with-legend {
         margin-top: 30px;
+    }
+    
+    .card-body {
+        background: #1a1a2b;
     }
     
     .colors-section .btn {
