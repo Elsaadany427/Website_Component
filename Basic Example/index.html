@@ -192,13 +192,13 @@
                     <h6 class="card-legend">DEFAULT BUTTONS</h6>
                     <div class="card-body">
                         <div class="ui-buttons">
-                            <button class="btn btn-warning" onclick="warning()">Warning</button>
-                            <button class="btn btn-primary" onclick="primary()">Primary</button>
-                            <button class="btn btn-success" onclick="success()">Success</button>
-                            <button class="btn btn-light" onclick="light()">Light</button>
-                            <button class="btn btn-dark" onclick="dark()">Dark</button>
-                            <button class="btn btn-danger" onclick="danger()">Danger</button>
-                            <button class="btn btn-info" onclick="info()">Info</button>
+                            <button class="btn btn-warning" onclick="defaultColor('warning')">Warning</button>
+                            <button class="btn btn-primary" onclick="defaultColor('primary')">Primary</button>
+                            <button class="btn btn-success" onclick="defaultColor('success')">Success</button>
+                            <button class="btn btn-light" onclick="defaultColor('light')">Light</button>
+                            <button class="btn btn-dark" onclick="defaultColor('dark')">Dark</button>
+                            <button class="btn btn-danger" onclick="defaultColor('danger')">Danger</button>
+                            <button class="btn btn-info" onclick="defaultColor('info')">Info</button>
                         </div>
                     </div>
                 </div>
@@ -210,68 +210,68 @@
                     <h6 class="card-legend">SMALL BUTTONS</h6>
                     <div class="card-body">
                         <div class="ui-buttons">
-                            <button class="btn btn-warning btn-sm" onclick="smallbtn() ; warning();">Warning</button>
-                            <button class="btn btn-primary btn-sm" onclick="smallbtn() ; primary()">Primary</button>
-                            <button class="btn btn-success btn-sm" onclick="smallbtn() ; success()">Success</button>
-                            <button class="btn btn-light btn-sm" onclick="smallbtn() ; light()">Light</button>
-                            <button class="btn btn-danger btn-sm" onclick="smallbtn() ; dark()">Danger</button>
-                            <button class="btn btn-dark btn-sm" onclick="smallbtn() ; danger()">Dark</button>
-                            <button class="btn btn-info btn-sm" onclick="smallbtn(); info()">Info</button>
+                            <button class="btn btn-warning btn-sm" onclick="smallbtn() ; defaultColor('warning');">Warning</button>
+                            <button class="btn btn-primary btn-sm" onclick="smallbtn() ; defaultColor('primary')">Primary</button>
+                            <button class="btn btn-success btn-sm" onclick="smallbtn() ; defaultColor('success')">Success</button>
+                            <button class="btn btn-light btn-sm" onclick="smallbtn() ; defaultColor('light')">Light</button>
+                            <button class="btn btn-danger btn-sm" onclick="smallbtn() ;defaultColor('danger')" ">Danger</button>
+                            <button class="btn btn-dark btn-sm " onclick="smallbtn() ; defaultColor( 'dark') ">Dark</button>
+                            <button class="btn btn-info btn-sm " onclick="smallbtn(); defaultColor( 'info') ">Info</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card grid-margin card-with-legend">
-                    <h6 class="card-legend">Bg BUTTONS</h6>
-                    <div class="card-body">
-                        <div class="ui-buttons">
-                            <button class="btn btn-warning btn-lg" onclick="bgbtn() ; warning();">Warning</button>
-                            <button class="btn btn-primary btn-lg" onclick="bgbtn() ; primary()">Primary</button>
-                            <button class="btn btn-success btn-lg" onclick="bgbtn() ;  success()"> Success</button>
-                            <button class="btn btn-dark btn-lg" onclick="bgbtn() ; dark()">Dark</button>
-                            <button class="btn btn-light btn-lg" onclick="bgbtn() ; light()">Light</button>
-                            <button class="btn btn-danger btn-lg" onclick="bgbtn() ; danger()">Danger</button>
-                            <button class="btn btn-info btn-lg" onclick="bgbtn() ; info()">Info</button>
+            <div class="col-12 ">
+                <div class="card grid-margin card-with-legend ">
+                    <h6 class="card-legend ">Bg BUTTONS</h6>
+                    <div class="card-body ">
+                        <div class="ui-buttons ">
+                            <button class="btn btn-warning btn-lg " onclick="bgbtn() ; defaultColor( 'warning'); ">Warning</button>
+                            <button class="btn btn-primary btn-lg " onclick="bgbtn() ; defaultColor( 'primary') ">Primary</button>
+                            <button class="btn btn-success btn-lg " onclick="bgbtn() ; defaultColor( 'success') "> Success</button>
+                            <button class="btn btn-dark btn-lg " onclick="bgbtn() ; defaultColor( 'dark') ">Dark</button>
+                            <button class="btn btn-light btn-lg " onclick="bgbtn() ; defaultColor( 'light') ">Light</button>
+                            <button class="btn btn-danger btn-lg " onclick="bgbtn() ; defaultColor( 'danger') ">Danger</button>
+                            <button class="btn btn-info btn-lg " onclick="bgbtn() ; defaultColor( 'info') ">Info</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card grid-margin card-with-legend">
-                    <h6 class="card-legend">LARGE BUTTONS</h6>
-                    <div class="card-body">
-                        <div class="ui-buttons">
-                            <div class="ui-buttons mb-2">
+            <div class="col-12 ">
+                <div class="card grid-margin card-with-legend ">
+                    <h6 class="card-legend ">LARGE BUTTONS</h6>
+                    <div class="card-body ">
+                        <div class="ui-buttons ">
+                            <div class="ui-buttons mb-2 ">
 
 
-                                <button class="btn btn-outline-warning btn-rounded" id="btnWithIcon_1" onclick="btn_with_icon_warning(btnWithIcon_1)"><i
-                                        class="fa fa-home mr-1"></i>Outline</button>
-                                <button class="btn btn-outline-warning btn-rounded btn-icon" id="btnWithIcon_1_1" onclick="btn_with_icon_warning(btnWithIcon_1_1)">
-                                    <i class="fa fa-heart"></i></button>
+                                <button class="btn btn-outline-warning btn-rounded " id="btnWithIcon_1 " onclick="btn_with_icon_warning( 'btnWithIcon_1' , 'warning') "><i
+                                        class="fa fa-home mr-1 "></i>Outline</button>
+                                <button class="btn btn-outline-warning btn-rounded btn-icon " id="btnWithIcon_1_1 " onclick="btn_with_icon_warning( 'btnWithIcon_1_1' , 'warning') ">
+                                    <i class="fa fa-heart "></i></button>
 
 
-                                <button class="btn btn-primary btn-rounded" id="btnWithIcon_2" onclick="btn_with_icon_primary(btnWithIcon_2)"> <i
-                                        class="fa fa-home mr-1"></i>Outline</button>
-                                <button class="btn btn-primary btn-rounded btn-icon" id="btnWithIcon_2_2" onclick="btn_with_icon_primary(btnWithIcon_2_2)"><i
-                                        class="fa fa-heart"></i></button>
+                                <button class="btn btn-primary btn-rounded " id="btnWithIcon_2 " onclick="btn_with_icon_warning( 'btnWithIcon_2' , 'primary') "> <i
+                                        class="fa fa-home mr-1 "></i>Outline</button>
+                                <button class="btn btn-primary btn-rounded btn-icon " id="btnWithIcon_2_2 " onclick="btn_with_icon_warning( 'btnWithIcon_2_2' , 'primary') "><i
+                                        class="fa fa-heart "></i></button>
 
 
-                                <button class="btn btn-success btn-rounded" id="btnWithIcon_3" onclick="btn_with_icon_success(btnWithIcon_3)"> <i
-                                        class="fa fa-home mr-1"></i>Outline</button>
-                                <button class="btn btn-success btn-rounded btn-icon" id="btnWithIcon_3_3" onclick="btn_with_icon_success(btnWithIcon_3_3)"><i
-                                        class="fa fa-heart"></i></button>
+                                <button class="btn btn-success btn-rounded " id="btnWithIcon_3 " onclick="btn_with_icon_color( 'btnWithIcon_3' , 'success') "> <i
+                                        class="fa fa-home mr-1 "></i>Outline</button>
+                                <button class="btn btn-success btn-rounded btn-icon " id="btnWithIcon_3_3 " onclick="btn_with_icon_color( 'btnWithIcon_3_3' , 'success') "><i
+                                        class="fa fa-heart "></i></button>
 
 
-                                <button class="btn btn-outline-light btn-rounded" id="btnWithIcon_4" onclick="btn_with_icon_light(btnWithIcon_4)"><i
-                                        class="fa fa-home mr-1"></i>Outline</button>
-                                <button class="btn btn-outline-light btn-rounded btn-icon" id="btnWithIcon_4_4" onclick="btn_with_icon_light(btnWithIcon_4_4)"><i class="fa fa-heart"></i></button>
+                                <button class="btn btn-outline-light btn-rounded " id="btnWithIcon_4 " onclick="btn_with_icon_color( 'btnWithIcon_4' , 'light') "><i
+                                        class="fa fa-home mr-1 "></i>Outline</button>
+                                <button class="btn btn-outline-light btn-rounded btn-icon " id="btnWithIcon_4_4 " onclick="btn_with_icon_color( 'btnWithIcon_4_4' , 'light') "><i class="fa fa-heart "></i></button>
 
-                                <button class="btn btn-danger btn-rounded" id="btnWithIcon_5" onclick="btn_with_icon_danger(btnWithIcon_5)"> <i
-                                        class="fa fa-home mr-1"></i>Outline</button>
-                                <button class="btn btn-danger btn-rounded btn-icon" id="btnWithIcon_5_5" onclick="btn_with_icon_danger(btnWithIcon_5_5)"><i class="fa fa-heart"></i></button>
+                                <button class="btn btn-danger btn-rounded " id="btnWithIcon_5 " onclick="btn_with_icon_color( 'btnWithIcon_5' , 'danger') "> <i
+                                        class="fa fa-home mr-1 "></i>Outline</button>
+                                <button class="btn btn-danger btn-rounded btn-icon " id="btnWithIcon_5_5 " onclick="btn_with_icon_color( 'btnWithIcon_5_5' , 'danger') "><i class="fa fa-heart "></i></button>
                             </div>
                         </div>
                     </div>
@@ -280,29 +280,29 @@
 
 
 
-            <div class="col-12">
-                <div class="card grid-margin card-with-legend">
-                    <h6 class="card-legend">OUTLINE BUTTONS</h6>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="ui-buttons mb-2">
-                                    <button class="btn btn-outline-warning" onclick="outlinewarning()">Warning</button>
-                                    <button class="btn btn-outline-primary" onclick="outlineprimary() ">Primary</button>
-                                    <button class="btn btn-outline-success" onclick="outlinesuccess()">Success</button>
-                                    <button class="btn btn-outline-dark" onclick="outlinedark()">Dark</button>
-                                    <button class="btn btn-outline-light" onclick="outlinelight()">Light</button>
-                                    <button class="btn btn-outline-info" onclick="outlineinfo()">Info</button>
-                                    <button class="btn btn-outline-danger" onclick="outlinedanger()">Danger</button>
+            <div class="col-12 ">
+                <div class="card grid-margin card-with-legend ">
+                    <h6 class="card-legend ">OUTLINE BUTTONS</h6>
+                    <div class="card-body ">
+                        <div class="row ">
+                            <div class="col-md-12 ">
+                                <div class="ui-buttons mb-2 ">
+                                    <button class="btn btn-outline-warning " onclick="Outlinecolor( 'warning') ">Warning</button>
+                                    <button class="btn btn-outline-primary " onclick="Outlinecolor( 'primary') ">Primary</button>
+                                    <button class="btn btn-outline-success " onclick="Outlinecolor( 'success') ">Success</button>
+                                    <button class="btn btn-outline-dark " onclick="Outlinecolor( 'dark') ">Dark</button>
+                                    <button class="btn btn-outline-light " onclick="Outlinecolor( 'light') ">Light</button>
+                                    <button class="btn btn-outline-info " onclick="Outlinecolor( 'info') ">Info</button>
+                                    <button class="btn btn-outline-danger " onclick="Outlinecolor( 'danger') ">Danger</button>
                                 </div>
-                                <div class="ui-buttons">
-                                    <button class="btn btn-outline-warning" onclick="outlinewarning()">Warning</button>
-                                    <button class="btn btn-outline-primary" onclick="outlineprimary() ">Primary</button>
-                                    <button class="btn btn-outline-success" onclick="outlinesuccess()">Success</button>
-                                    <button class="btn btn-outline-dark" onclick="outlinedark()">Dark</button>
-                                    <button class="btn btn-outline-light" onclick="outlinelight()">Light</button>
-                                    <button class="btn btn-outline-info" onclick="outlineinfo()">Info</button>
-                                    <button class="btn btn-outline-danger" onclick="outlinedanger()">Danger</button>
+                                <div class="ui-buttons ">
+                                    <button class="btn btn-outline-warning " onclick="Outlinecolor( 'warning') ">Warning</button>
+                                    <button class="btn btn-outline-primary " onclick="Outlinecolor( 'primary') ">Primary</button>
+                                    <button class="btn btn-outline-success " onclick="Outlinecolor( 'success') ">Success</button>
+                                    <button class="btn btn-outline-dark " onclick="Outlinecolor( 'dark') ">Dark</button>
+                                    <button class="btn btn-outline-light " onclick="Outlinecolor( 'light') ">Light</button>
+                                    <button class="btn btn-outline-info " onclick="Outlinecolor( 'info') ">Info</button>
+                                    <button class="btn btn-outline-danger " onclick="Outlinecolor( 'danger') ">Danger</button>
                                 </div>
                             </div>
 
@@ -314,21 +314,21 @@
             </div>
 
 
-            <div class="col-12">
-                <div class="card grid-margin card-with-legend">
-                    <h6 class="card-legend">Background Colors</h6>
-                    <div class="card-body">
-                        <section class="colors-section">
-                            <h2 class="colors-section-title"></h2>
-                            <div class="ui-buttons">
-                                <button class="btn btn-primary bg-primary" onclick="bgprimary()"></button>
-                                <button class="btn btn-success bg-success" onclick="bgsuccess()"></button>
-                                <button class="btn btn-danger bg-danger" onclick="bgdanger()"></button>
-                                <button class="btn btn-warning bg-warning" onclick="bgwarning()"></button>
-                                <button class="btn btn-info bg-info" onclick="bginfo()"></button>
-                                <button class="btn btn-dark bg-dark" onclick="bgdark()"></button>
-                                <button class="btn btn-light bg-light" onclick="bglight()"></button>
-                                <button class="btn btn-white bg-white" onclick="bgwhite()"></button>
+            <div class="col-12 ">
+                <div class="card grid-margin card-with-legend ">
+                    <h6 class="card-legend ">Background Colors</h6>
+                    <div class="card-body ">
+                        <section class="colors-section ">
+                            <h2 class="colors-section-title "></h2>
+                            <div class="ui-buttons ">
+                                <button class="btn btn-primary bg-primary " onclick="bgchangeColor( 'primary') "></button>
+                                <button class="btn btn-success bg-success " onclick="bgchangeColor( 'success') "></button>
+                                <button class="btn btn-danger bg-danger " onclick="bgchangeColor( 'danger') "></button>
+                                <button class="btn btn-warning bg-warning " onclick="bgchangeColor( 'warning') "></button>
+                                <button class="btn btn-info bg-info " onclick="bgchangeColor( 'info') "></button>
+                                <button class="btn btn-dark bg-dark " onclick="bgchangeColor( 'dark') "></button>
+                                <button class="btn btn-light bg-light " onclick="bgchangeColor( 'light') "></button>
+                                <button class="btn btn-white bg-white " onclick="bgchangeColor( 'white') "></button>
                             </div>
 
                         </section>
@@ -336,23 +336,23 @@
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="card grid-margin card-with-legend">
-                    <h6 class="card-legend">Text Colors</h6>
-                    <div class="card-body">
-                        <section class="colors-section">
-                            <h2 class="colors-section-title"></h2>
-                            <div class="ui-buttons">
-                                <button class="btn btn-primary bg-primary"></button>
-                                <button class="btn btn-success bg-success"></button>
-                                <button class="btn btn-danger bg-danger"></button>
-                                <button class="btn btn-warning bg-warning"></button>
+            <div class="col-12 ">
+                <div class="card grid-margin card-with-legend ">
+                    <h6 class="card-legend ">Text Colors</h6>
+                    <div class="card-body ">
+                        <section class="colors-section ">
+                            <h2 class="colors-section-title "></h2>
+                            <div class="ui-buttons ">
+                                <button class="btn btn-primary bg-primary "></button>
+                                <button class="btn btn-success bg-success "></button>
+                                <button class="btn btn-danger bg-danger "></button>
+                                <button class="btn btn-warning bg-warning "></button>
                             </div>
-                            <div class="ui-buttons">
-                                <button class="btn btn-info bg-info"></button>
-                                <button class="btn btn-dark bg-dark"></button>
-                                <button class="btn btn-light bg-light"></button>
-                                <button class="btn btn-white bg-white"></button>
+                            <div class="ui-buttons ">
+                                <button class="btn btn-info bg-info "></button>
+                                <button class="btn btn-dark bg-dark "></button>
+                                <button class="btn btn-light bg-light "></button>
+                                <button class="btn btn-white bg-white "></button>
                             </div>
                         </section>
                     </div>
@@ -362,9 +362,9 @@
     </div>
 
 
-    <script src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
 
 </body>
 
