@@ -1,89 +1,116 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 2000px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1071;
-    min-height: 4rem;
-    background-color: #563d7c;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
-}
-
-.navbar-toggler i {
-    color: #fff !important;
-    font-size: 30px
-}
-
-.bg-light {
-    background-color: #563d7c !important;
-}
-
-.main-nav .nav-item {
-    margin: 0 13px 0 13px;
-}
-
-.main-nav .nav-item a {
-    font-size: 16px;
-    color: white !important;
-    color: #cbbde2 !important;
-    transition: 0.1s ease-in-out
-}
-
-.main-nav .nav-item a:hover {
-    color: #fff !important;
-}
-
-.main-nav .dropdown-menu {
-    padding: 10px;
-}
-
-.main-nav .dropdown-menu a {
-    background: #fff;
-    padding: 4px;
-    margin-bottom: 8px;
-    color: black !important;
-}
-
-.main-nav .dropdown-menu a:hover {
-    background-color: #f8f9fa;
-    color: black !important;
-}
-
-.navbar-brand {
-    margin-right: 5rem;
-    color: white !important;
-}
-
-.navbar-icons .nav-item {
-    margin: 0px !important;
-}
-
-li svg {
-    width: 1rem;
-    height: 1rem;
-}
-
-.navbar-icons .nav-item a {
-    color: #cbbde2 !important;
-    transition: 0.1s ease-in-out
-}
-
-.navbar-icons .nav-link:hover {
-    color: #fff !important;
-}
-
-.form-inline {
-    margin-left: 10px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 2000px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1071;
+        min-height: 4rem;
+        background-color: #563d7c;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05);
+        margin-bottom: 100px;
+    }
+    
+    .navbar-toggler i {
+        color: #fff !important;
+        font-size: 30px
+    }
+    
+    .bg-light {
+        background-color: #563d7c !important;
+    }
+    
+    .main-nav .nav-item {
+        margin: 0 13px 0 13px;
+    }
+    
+    .main-nav .nav-item a {
+        font-size: 16px;
+        color: white !important;
+        color: #cbbde2 !important;
+        transition: 0.1s ease-in-out
+    }
+    
+    .main-nav .nav-item a:hover {
+        color: #fff !important;
+    }
+    
+    .main-nav .dropdown-menu {
+        padding: 10px;
+    }
+    
+    .main-nav .dropdown-menu a {
+        background: #fff;
+        padding: 4px;
+        margin-bottom: 8px;
+        color: black !important;
+    }
+    
+    .main-nav .dropdown-menu a:hover {
+        background-color: #f8f9fa;
+        color: black !important;
+    }
+    
+    .navbar-brand {
+        margin-right: 5rem;
+        color: white !important;
+    }
+    
+    .navbar-icons .nav-item {
+        margin: 0px !important;
+    }
+    
+    li svg {
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .navbar-icons .nav-item a {
+        color: #cbbde2 !important;
+        transition: 0.1s ease-in-out
+    }
+    
+    .navbar-icons .nav-link:hover {
+        color: #fff !important;
+    }
+    
+    .form-inline {
+        margin-left: 10px;
+    }
+    /* page */
+    
+    .card-with-legend .card-legend {
+        font-size: 12px;
+        color: #575d78;
+        line-height: 1.92;
+        font-weight: 500;
+        position: absolute;
+        top: -12px;
+        left: 2.25rem;
+        background-color: #ffffff;
+        padding: 0 10px;
+    }
+    
+    .card-with-legend {
+        margin-top: 30px;
+    }
+    
+    .colors-section .btn {
+        height: 60px;
+        width: 140px;
+        display: inline-block;
+        border-radius: 4px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
