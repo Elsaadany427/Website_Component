@@ -26,6 +26,7 @@ function removeIcon() {
 
 function checkIcon(btn) {
     var isvalid = search_id.getElementsByTagName("i");
+    // var x = btn + " ";
     var btnWithIcon = document.getElementById(btn);
     var icon = btnWithIcon.getElementsByTagName("i");
     var iconClass = icon[0].className;
